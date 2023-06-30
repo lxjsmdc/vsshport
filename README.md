@@ -2,7 +2,7 @@
 
 
 <pre>
-wget --no-check-certificate https://raw.githubusercontent.com/Anenv/lxjsmdc/master/sshport.sh
+wget --no-check-certificate https://raw.githubusercontent.com/mengdacheng/vsshport/master/sshport.sh
 chmod +x sshport.sh
 sh sshport.sh
 </pre>
