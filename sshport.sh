@@ -28,4 +28,6 @@ echo "Port ${sshport}" >> /etc/ssh/sshd_config
 iptables -A INPUT -p tcp -m tcp --dport $sshport -j ACCEPT
 
 /etc/init.d/iptables restart 
-/etc/init.d/sshd restart 
+/etc/init.d/sshd restart
+/bin/systemctl restart sshd.service
+service sshd restart
